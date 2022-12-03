@@ -1,0 +1,344 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.error {
+    color: red;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header .css-17pmaar-MuiCardContent-root:last-child {
+    padding: 15px;
+}
+
+.header h4 {
+    margin: 0;
+    color: #000;
+    font-size: 1.25rem;
+}
+
+.header .home {
+    color: #5e35b1;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ==================|| User List Page ||================== */
+
+.User_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_btn {
+    border: none;
+    color: #0d6efd;
+    background-color: #bbd6f6;
+}
+
+.add_btn:hover {
+    color: #fff !important;
+    background-color: #0d6efd !important;
+}
+
+.swal2-container.swal2-backdrop-show {
+    z-index: 10000;
+}
+
+/* =========================================================== */
+
+
+/* ==================|| View User Page ||================== */
+
+.user_view .table {
+    margin-bottom: 1.5rem;
+}
+
+/* ======================================================== */
+
+
+/* ==================|| Edit User Page ||================== */
+
+.is-filled .row {
+    margin: 20px 0;
+    gap: 20px 0;
+}
+
+.css-ifw91t-MuiPaper-root,
+.MuiPaper-rounded {
+    box-shadow: none;
+    padding: 0;
+}
+
+.css-68csef-MuiTableCell-root-MuiTablePagination-root {
+    border-bottom: 0;
+}
+
+.css-1oacup0-MuiInputBase-root-MuiInput-root,
+.css-vz0u1b-MuiInputBase-root-MuiInput-root,
+.css-1ac3q2w-MuiInputBase-root-MuiInput-root {
+    border: 1px solid #c6c6c6;
+    border-radius: 8px;
+    padding: 0 0 0 10px;
+    transition: 0.3s;
+}
+
+.css-ix00ao-MuiInputBase-input-MuiInput-input {
+    padding: 10px 0px;
+}
+
+.css-1oacup0-MuiInputBase-root-MuiInput-root::before,
+.css-1oacup0-MuiInputBase-root-MuiInput-root::after,
+.css-vz0u1b-MuiInputBase-root-MuiInput-root::before,
+.css-vz0u1b-MuiInputBase-root-MuiInput-root::after,
+.css-1ac3q2w-MuiInputBase-root-MuiInput-root::before,
+.css-1ac3q2w-MuiInputBase-root-MuiInput-root::after {
+    content: none;
+}
+
+/* .css-1oacup0-MuiInputBase-root-MuiInput-root::after {
+    width: 91%;
+    margin: 0 auto;
+} */
+
+.MuiInputBase-root.Mui-focused {
+    border: 1px solid;
+    /* padding: 0 ; */
+}
+
+/* =========================================================== */
+
+
+/* ==================|| Notification Page ||================== */
+
+.notiBtn {
+    background-color: #ede7f6;
+    color: #5e35b1;
+    transition: all 0.6s ease-in-out;
+}
+
+.notiBtn:hover {
+    box-shadow: inset 0px 0 300px 0 #5e35b1 !important;
+    color: #ede7f6 !important;
+}
+
+.MuiTableCell-root {
+    z-index: 1 !important;
+}
+
+/* =========================================================== */
+
+
+/* ==================|| POS Page ||================== */
+
+.POS_main {
+    height: 100%;
+    user-select: none;
+}
+
+.POS_main .MuiCard-root {
+    height: 100%;
+}
+
+.POS_main .css-17pmaar-MuiCardContent-root {
+    /* background-color: #f6f6f6; */
+    height: 100%;
+    padding: 0px;
+}
+
+.POS_main .POS_content {
+    display: flex;
+    height: 100%;
+}
+
+.POS_main .POS_UP {
+    height: 100%;
+}
+
+.pos_left {
+    background-color: #303239;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pos_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table_pos {
+    height: 100%;
+    padding: 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table_pos thead,
+.table_pos tbody,
+.table_pos tfoot,
+.table_pos tr,
+.table_pos td,
+.table_pos th {
+    border: 1px solid;
+    padding: 0px !important;
+    text-align: center;
+}
+
+.table_pos tfoot tr {
+    height: 21px;
+}
+
+/* .table_pos thead,
+.table_pos tbody,
+.table_pos tfoot {
+    padding: 6px !important;
+} */
+
+.table_pos tr,
+.table_pos td {
+    font-size: 12px;
+}
+
+.table_pos tr:hover {
+    background-color: inherit !important;
+}
+
+.table_pos td div {
+    width: auto !important;
+    justify-content: center
+}
+
+.table_pos td div button {
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    padding: 0 2px;
+}
+
+.table_pos input {
+    padding: 3px;
+}
+
+.table_pos .bottom_table table {
+    margin-bottom: 0.2rem !important;
+}
+
+.table_pos .bottom_table table td {
+    line-height: 1.3125rem;
+    width: calc(103.8px);
+}
+
+.pos_right .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+
+.pos_right .boxes.br {
+    border-left: none;
+}
+
+.pos_list .list {
+    max-height: calc(74vh - 7vh);
+    text-align: center;
+}
+
+
+.pos_list ul {
+    max-width: none;
+    background-color: inherit;
+}
+
+.pos_list ul li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.pos_list ul li span,
+.pos_list ul li svg {
+    color: white !important;
+    text-transform: capitalize;
+}
+
+.pos_list ul li span {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pos_list ul li svg {
+    background: #646571;
+    border-radius: 15px;
+}
+
+.pos_list .list_button {
+    padding: 0px;
+
+}
+
+.pos_list .list_button:hover {
+    background-color: #6c757d69;
+}
+
+.pos_left .pos_list_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1rem 0.5rem;
+    border-radius: 10px;
+    background: #303239;
+    box-shadow: inset 10px -10px 23px #131417,
+        inset -10px 10px 23px #4d505b;
+}
+
+.pos_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* width: 400px; */
+    background-color: #ffffff;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    padding: 32px;
+}
+
+.pos_modal .MuiInputBase-root.Mui-focused {
+    border: none !important;
+}
+
+.pos_modal .gap {
+    gap: 10px
+}
+
+.pos_modal .pos_btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* ================================================== */
